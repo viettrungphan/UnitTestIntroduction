@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		B0ED41B42A244D0F0024C236 /* UTIntroduction.docc in Sources */ = {isa = PBXBuildFile; fileRef = B0ED41B32A244D0F0024C236 /* UTIntroduction.docc */; };
 		B0ED41BA2A244D0F0024C236 /* UTIntroduction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0ED41AF2A244D0F0024C236 /* UTIntroduction.framework */; };
-		B0ED41BF2A244D0F0024C236 /* UTIntroductionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ED41BE2A244D0F0024C236 /* UTIntroductionTests.swift */; };
+		B0ED41BF2A244D0F0024C236 /* StructureOfATest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ED41BE2A244D0F0024C236 /* StructureOfATest.swift */; };
 		B0ED41C02A244D0F0024C236 /* UTIntroduction.h in Headers */ = {isa = PBXBuildFile; fileRef = B0ED41B22A244D0F0024C236 /* UTIntroduction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0ED41CA2A244D410024C236 /* IntroduceToTDD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ED41C92A244D410024C236 /* IntroduceToTDD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,8 @@
 		B0ED41B22A244D0F0024C236 /* UTIntroduction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UTIntroduction.h; sourceTree = "<group>"; };
 		B0ED41B32A244D0F0024C236 /* UTIntroduction.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = UTIntroduction.docc; sourceTree = "<group>"; };
 		B0ED41B92A244D0F0024C236 /* UTIntroductionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UTIntroductionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0ED41BE2A244D0F0024C236 /* UTIntroductionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTIntroductionTests.swift; sourceTree = "<group>"; };
+		B0ED41BE2A244D0F0024C236 /* StructureOfATest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureOfATest.swift; sourceTree = "<group>"; };
+		B0ED41C92A244D410024C236 /* IntroduceToTDD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroduceToTDD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +82,8 @@
 		B0ED41BD2A244D0F0024C236 /* UTIntroductionTests */ = {
 			isa = PBXGroup;
 			children = (
-				B0ED41BE2A244D0F0024C236 /* UTIntroductionTests.swift */,
+				B0ED41BE2A244D0F0024C236 /* StructureOfATest.swift */,
+				B0ED41C92A244D410024C236 /* IntroduceToTDD.swift */,
 			);
 			path = UTIntroductionTests;
 			sourceTree = "<group>";
@@ -202,7 +205,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0ED41BF2A244D0F0024C236 /* UTIntroductionTests.swift in Sources */,
+				B0ED41BF2A244D0F0024C236 /* StructureOfATest.swift in Sources */,
+				B0ED41CA2A244D410024C236 /* IntroduceToTDD.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
